@@ -41,8 +41,8 @@ Strings are an immutable sequence of characters. String literals can be surround
 	// Strings also have some built in methods
 	n = b.index("Wor")      // n is now 6.
 
-	n = b.count("l")        // n is now 3.
-	n = b.count("llo")      // n is now 1.
+	n = b.count("l")        // n is now 1.
+	n = b.count("llo")      // n is now 3.
 
 	n = "A".repeat(10)      // n is now "AAAAAAAAAA"
 
